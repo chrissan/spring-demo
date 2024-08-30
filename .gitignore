@@ -3,6 +3,8 @@ target/
 out/
 build/
 
+dockerfile
+
 # Ignorar los directorios de dependencias
 /.mvn/
 /**/lib/
