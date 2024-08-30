@@ -1,0 +1,37 @@
+# Ignorar los directorios y archivos de construcción de Maven
+target/
+out/
+build/
+
+# Ignorar los directorios de dependencias
+/.mvn/
+/**/lib/
+/**/node_modules/
+
+# Ignorar archivos de log
+*.log
+
+# Ignorar archivos de configuración específicos de IDE
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# VS Code
+.vscode/
+
+# Ignorar archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Ignorar archivos temporales
+*.tmp
+*.swp
+*.swo
+
+# Ignorar archivos de configuración
