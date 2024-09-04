@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class Controller {
     @GetMapping("/version")
     public ResponseEntity<Message> getMessage() {
-        Message message = new Message("MiAplicacion", "1.1", "Operación exitosa");
+        Message message = new Message("MiAplicacion", "1.2", "Operación exitosa");
         
         HttpHeaders headers = new HttpHeaders();
         headers.add("X-Monte-Header", "OAuth");

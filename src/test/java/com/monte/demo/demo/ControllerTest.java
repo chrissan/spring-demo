@@ -23,7 +23,7 @@ public class ControllerTest {
         mockMvc.perform(get("/api/version"))
             .andExpect(status().isCreated())  // Verifica que el estado HTTP es 201 Created
             .andExpect(jsonPath("$.nombre").value("MiAplicacion"))  // Verifica que el campo "nombre" es "MiAplicacion"
-            .andExpect(jsonPath("$.version").value("1.1"))  // Verifica que el campo "version" es "1.0"
+            .andExpect(jsonPath("$.version").value("1.2"))  // Verifica que el campo "version" es "1.0"
             .andExpect(jsonPath("$.mensaje").value("Operación exitosa"))  // Verifica que el campo "mensaje" es "Operación exitosa"
             .andExpect(header().string("X-Monte-Header", "OAuth"));  // Verifica que el encabezado "X-Custom-Header" tiene el valor esperado
     }
