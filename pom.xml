@@ -96,12 +96,12 @@
 		</pluginRepository>
 	</pluginRepositories>
     <!-- Definición del repositorio remoto para despliegues -->
-    <distributionManagement>
-	<repository>
-	    <id>codeartifact</id>
-	    <url>https://<dominio>-<ID-de-la-cuenta>.d.codeartifact.<region>.amazonaws.com/maven/<nombre-repo>/</url>
-	</repository>
-    </distributionManagement>
-
+	<distributionManagement>
+	  <repository>
+	    <id>demo-monte-url-demo-app</id>
+	    <name>demo-monte-url-demo-app</name>
+	    <url>https://demo-monte-url-941377146973.d.codeartifact.us-east-2.amazonaws.com/maven/demo-app/</url>
+	  </repository>
+	</distributionManagement>
     <!-- Otras configuraciones de tu proyecto -->
 </project>
