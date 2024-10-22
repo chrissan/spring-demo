@@ -97,11 +97,11 @@
 	</pluginRepositories>
     <!-- Definición del repositorio remoto para despliegues -->
 	<distributionManagement>
-	<repository>
-        	<id>test-monte-maven-central-store</id>
-		<name>test-monte-maven-central-store</name>
-        	<url>https://test-monte-940482428911.d.codeartifact.us-east-1.amazonaws.com/maven/maven-central-store/</url>
-      	</repository>
+	  <repository>
+	    <id>test-monte-test-java</id>
+	    <name>test-monte-test-java</name>
+	    <url>https://test-monte-940482428911.d.codeartifact.us-east-1.amazonaws.com/maven/test-java/</url>
+	  </repository>
 	</distributionManagement>
     <!-- Otras configuraciones de tu proyecto -->
 </project>
